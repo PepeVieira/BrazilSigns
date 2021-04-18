@@ -17,7 +17,12 @@ body{
 #informações{
     background-color: #2d4e9e;
     height: 100px;
-}    
+} 
+
+.email a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .menu{
     list-style: none;
@@ -26,7 +31,7 @@ body{
     width: 30%;
     height: 20%;
     padding: 5px;
-    margin: 25px 252px 0px 252px;
+    margin: 55px 252px 0px 362px;
 }
 
 .menu li{
@@ -64,7 +69,7 @@ body{
 .menu li ul li{
     border:1px solid #fff;
     display:block;
-    width:50px;
+    width:120px;
     }
 
 .slider{
