@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="Stylesheet" type="text/CSS" href="Stylesheet.css">
-    
     <head>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="Stylesheet" type="text/CSS" href="Stylesheet.css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
         <title>BrazilSigns</title>
         <meta charset="utf-8">
         <title>BrazilSigns</title>
@@ -10,14 +12,24 @@
         <link rel="sortcut icon" href="img/BrazilSigns icone_logotipo-01.png" type="image/png" />
     </head>
     <body>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+        <script>
+            $(function(){
+               $(".button-collapse").sideNav();
+            });
+       </script>
+       
         <header>
             <div id="banner">
                 <a href="index.html"><img src="img/Logo  BrazilSigns-01.png" alt="logo Brazil Signs" height="120" /></a>
             </div>
    
             <div id="informações">
-                 <input type="checkbox" id="bt_menu">
-                 <label for="bt_menu">&#9776;</label>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                                <i class="material-icons">menu</i>
+                </a>
                 <nav>
                     <ul class="menu">
                         <li><a href="#">Sobre</a></li>
@@ -36,7 +48,26 @@
                         </li>
                         <li><a href="#">Contato</a></li>
                     </ul>
+                    <ul class="side-nav" id="menu-mobile">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Maquinário</a></li>
+                        <li><a href="#">Portfólio</a>
+                            <ul>
+                                <li><a href="#">FAIXAS/BANNERS</a>
+                                <li><a href="#">VEÍCULOS</a> 
+                                <li><a href="#">LUMINOSOS</a>
+                                <li><a href="#">FACHADAS</a>
+                                <li><a href="#">ADESIVOS</a>
+                                <li><a href="#">LETRA CAIXA/3D</a>
+                                <li><a href="#">SINALIZAÇÃO</a>    
+                                <li><a href="#">OUTROS</a>                                
+                            </ul>
+                        </li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+
                 </nav>
+
                 <div class="email"> 
                     <a href="mailto: brazilsigns@uol.com.br" alt="brazilsigns@uol.com.br"><img src="img/icone email-01.png" width="20px"/>brazilsigns@uol.com.br</a>
                 </div>

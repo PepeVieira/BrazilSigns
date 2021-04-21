@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-left: 330px;
+    margin-left: 30px;
 }
 
 #informações{
@@ -78,27 +78,8 @@ body{
     width:170px;
     }
 
-label [for="bt_menu"]{
-    padding: 5px;
-    background-color: #2d4e9e;
-    color: #adbfe9;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-}
 
-#bt_menu{
-    display: none;
-}
-
-label[for="bt_menu"]{
-    display: none;
-}
-
-@media(max-width: 800px){
+@media(max-width: 375px){
 
     label[for="bt_menu"]{
         display: block;
@@ -121,6 +102,40 @@ label[for="bt_menu"]{
 
 
 }
+
+.side-nav #menu-mobile li a{
+    color: #adbfe9;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 8px;
+    display: block;
+    float: center;
+    font-size: 18px;
+}
+
+.side-nav #menu-mobile li a:hover{
+    background: #2d4e9e;
+    color: #fff;
+    text-shadow:0px 0px 5px #fff;
+}
+
+.side-nav #menu-mobile li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.side-nav #menu-mobile li:hover ul, #menu-mobile li.over ul{
+    display: block;
+}
+
+.side-nav #menu-mobile li ul li{
+    border:1px solid #fff;
+    display:block;
+    width:170px;
+    }
 
 .slider{
     display: block;
