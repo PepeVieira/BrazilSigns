@@ -11,7 +11,10 @@ body{
 #banner{
     background-color: #fff;
     position: relative;
+    display: flex;
+    flex-direction: row;
     align-content: center;
+    margin-left: 300px;
 }
 
 #informações{
