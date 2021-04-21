@@ -103,7 +103,7 @@ body{
 
 }
 
-.side-nav #menu-mobile li a{
+.side-nav #menu-mobile.menu li a{
     color: #adbfe9;
     text-decoration: none;
     text-align: center;
@@ -113,13 +113,13 @@ body{
     font-size: 18px;
 }
 
-.side-nav #menu-mobile li a:hover{
+.side-nav #menu-mobile.menu li a:hover{
     background: #2d4e9e;
     color: #fff;
     text-shadow:0px 0px 5px #fff;
 }
 
-.side-nav #menu-mobile li ul{
+.side-nav #menu-mobile.menu li ul{
     position: absolute;
     top: 25px;
     left: 0;
@@ -127,11 +127,11 @@ body{
     display: none;
 }
 
-.side-nav #menu-mobile li:hover ul, #menu-mobile li.over ul{
+.side-nav #menu-mobile.menu li:hover ul, .menu li.over ul{
     display: block;
 }
 
-.side-nav #menu-mobile li ul li{
+.side-nav #menu-mobile.menu li ul li{
     border:1px solid #fff;
     display:block;
     width:170px;
