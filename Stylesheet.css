@@ -22,16 +22,18 @@ body{
 .email a{
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
 }
 
 .menu{
     list-style: none;
     background-color: #2d4e9e;
     float: left;
-    width: 30%;
+    width: 80%;
     height: 20%;
     padding: 5px;
-    margin: 55px 252px 0px 362px;
+    border-top: 1px solid #adbfe9;
+    margin: 55px 0px 0px 0px;
 }
 
 .menu li{
@@ -42,9 +44,10 @@ body{
 .menu li a{
     color: #adbfe9;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px 8px;
     display: block;
     float: center;
+    font-size: 18px;
 }
 
 .menu li a:hover{
@@ -68,7 +71,7 @@ body{
 .menu li ul li{
     border:1px solid #fff;
     display:block;
-    width:120px;
+    width:170px;
     }
 
 .slider{
@@ -76,7 +79,7 @@ body{
     height: 239px;
     width: 600px;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 280px;
     position: relative;
 }
 
@@ -145,6 +148,19 @@ body{
 
 .slider li:nth-child(8) label{
     left: 220px;
+}
+
+#inf1{
+    margin-top: 360px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#inf1 h1{
+    background-color: #2d4e9e;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 
 #rodape{
