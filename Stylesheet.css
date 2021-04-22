@@ -81,28 +81,6 @@ body{
 
 @media(max-width: 375px){
 
-    label[for="bt_menu"]{
-        display: block;
-    }
-
-    #bt_menu: checked ˜.menu{
-        margin-left: 0;
-    }
-
-    .menu{
-       margin-top: 5px;  
-       margin-left: -100%;
-       transition: all .4s;
-    }
-
-    .menu li ul{
-         width: 100%;
-         float: none
-     }
-
-
-}
-
 .side-nav #menu-mobile.menu li a{
     color: #adbfe9;
     text-decoration: none;
@@ -136,6 +114,7 @@ body{
     display:block;
     width:170px;
     }
+}    
 
 .slider{
     display: block;
