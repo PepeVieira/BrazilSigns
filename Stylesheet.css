@@ -30,11 +30,17 @@ button.navbar-toggle {
 
 .navbar-inverse {
     background-color: #2d4e9e;
-    margin-top: 20px;
+    margin-top: 0px;
+    border-color: #2d4e9e;
 }
 
 nav.navbar.navbar-inverse.navbar {
     background-color: #2d4e9e;
+}
+
+.email{
+    background-color: #2d4e9e;
+    height: 30px;
 }
 
 .email a {
@@ -94,80 +100,12 @@ nav.navbar.navbar-inverse.navbar {
     width: 170px;
 }
 
-.slider {
-    display: block;
-    height: 239px;
-    width: 600px;
-    margin: auto;
-    margin-top: -20px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider li input:checked~img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-.slider label {
-    background-color: #2d4e9e;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider li:nth-child(4) label {
-    left: 100px;
-}
-
-.slider li:nth-child(5) label {
-    left: 130px;
-}
-
-.slider li:nth-child(6) label {
-    left: 160px;
-}
-
-.slider li:nth-child(7) label {
-    left: 190px;
-}
-
-.slider li:nth-child(8) label {
-    left: 220px;
+#carroselhome {
+     background-image: url("img/BrazilSigns_fundo-01.png");
+     background-color: rgb(194, 217, 247, 0.1);
+     background-repeat: no-repeat;
+     width: 1265px;
+     height: 500px;
 }
 
 #inf1 {
