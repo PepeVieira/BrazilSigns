@@ -56,7 +56,8 @@ nav.navbar.navbar-inverse.navbar {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    padding-left: 100px;
+    position: relative;
+    margin-left: 800px;
 }
 
 #links-menu {
@@ -142,17 +143,45 @@ nav.navbar.navbar-inverse.navbar {
     color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    /*nav*/
-
-    .navbar {
-        flex-direction: row;
-        justify-content: space-around;
+    *{
+        margin: 0;
+        padding: 0;
     }
 
-    .navbar ul {
+    #banner {
+        background-color: #fff;
+        position: relative;
+        display: flex;
         flex-direction: row;
-        width: 70%;
+        align-content: center;
+        margin-left: 10px;
     }
+
+    #banner img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .email a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .email img{
+        margin-left: 5px;
+    }
+
+
+    .tel a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        margin-left: 100px;
+    }
+
+
+
 }
