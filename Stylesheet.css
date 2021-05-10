@@ -38,15 +38,25 @@ nav.navbar.navbar-inverse.navbar {
     background-color: #2d4e9e;
 }
 
-.email{
+.contatos{
     background-color: #2d4e9e;
     height: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .email a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+    padding-left: 120px;
+}
+
+.tel a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 800px;
 }
 
 #links-menu {
