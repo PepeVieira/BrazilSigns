@@ -168,10 +168,12 @@ nav.navbar.navbar-inverse.navbar {
         text-decoration: none;
         color: #fff;
         font-size: 12px;
+        margin: 5px;
     }
 
     .email img{
-        margin-left: 5px;
+        margin-left: -90px;
+        
     }
 
 
@@ -179,7 +181,7 @@ nav.navbar.navbar-inverse.navbar {
         text-decoration: none;
         color: #fff;
         font-size: 12px;
-        margin-left: 100px;
+        margin: 5px;
     }
 
 
