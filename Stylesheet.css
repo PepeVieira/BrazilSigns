@@ -32,10 +32,42 @@ button.navbar-toggle {
     background-color: #2d4e9e;
     margin-top: 10px;
     border-color: #2d4e9e;
+    overflow: hidden;
 }
 
 nav.navbar.navbar-inverse.navbar {
     background-color: #2d4e9e;
+}
+
+.galery {
+    width: 750px;
+    height: 460px;
+    background-color: #2d4e9e;
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.galery .fotos img{
+    width: 19.9%;
+}
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
 }
 
 .contatos{
@@ -113,7 +145,6 @@ nav.navbar.navbar-inverse.navbar {
 
 #carroselhome {
      background-image: url("img/BrazilSigns_fundo-01.png");
-     background-color: rgb(194, 217, 247, 0.1);
      background-repeat: no-repeat;
      width: 1265px;
      height: 500px;
@@ -135,11 +166,11 @@ nav.navbar.navbar-inverse.navbar {
     margin-top: 700px;
 }
 
-#rodape h3 {
+#rodape h4 {
     color: #fff;
 }
 
-#rodape h4 {
+#rodape h5 {
     color: #fff;
 }
 
